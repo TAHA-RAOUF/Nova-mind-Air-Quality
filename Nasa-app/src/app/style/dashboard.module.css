@@ -1,0 +1,201 @@
+.dashboardContainer {
+  display: flex;
+  min-height: 100vh;
+  background: #1d2327;
+  color: #e5e7eb;
+}
+
+.sidebar {
+  background: #23292e;
+  color: #e5e7eb;
+  width: 260px;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  color: #9befb7;
+}
+
+.nav h4 {
+  margin: 1.7rem 0 0.5rem 0;
+  font-size: 0.82rem;
+  color: #838fa0;
+}
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+.nav ul li {
+  margin: 0.7rem 0;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.nav ul li:hover {
+  color: #a5d8ff;
+}
+.active {
+  font-weight: 700;
+  background: #344252;
+  color: #9befb7;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+}
+
+.statusCard {
+  background: #2d343a;
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+.co2Circle {
+  background: #9befb7;
+  color: #1d2327;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.statusCard img {
+  width: 100%;
+  border-radius: 8px;
+  margin: 0.75rem 0;
+}
+.statusCard button {
+  background: #23292e;
+  color: #9befb7;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 2rem 1rem 0;
+  background: transparent;
+}
+.header .nav {
+  font-size: 1rem;
+  color: #bebebe;
+}
+.themeToggle {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.statsGrid {
+  display: flex;
+  gap: 1.8rem;
+  margin: 1.8rem 0 1.2rem 0;
+}
+.statCard {
+  flex: 1;
+  background: #23292e;
+  border-radius: 10px;
+  padding: 1.3rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.green {
+  color: #9befb7;
+  font-weight: 700;
+}
+.purple {
+  color: #ba7ffc;
+  font-weight: 700;
+}
+.energy {
+  color: #a8d8ab;
+  font-weight: 700;
+}
+.statCard button {
+  align-self: flex-end;
+  background: #263238;
+  color: #bee6cc;
+  border: none;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.chartSection {
+  background: #23292e;
+  border-radius: 12px;
+  padding: 1.5rem 1.2rem 2rem 1.2rem;
+  margin-bottom: 1.3rem;
+}
+.chartHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.chartPlaceholder {
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a6acc2;
+  background: #283036;
+  border-radius: 12px;
+}
+
+.roomList {
+  display: flex;
+  gap: 1.1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+.roomCard {
+  flex: 1 1 240px;
+  background: #1e2430;
+  border-radius: 10px;
+  padding: 1.2rem 1rem;
+  min-width: 220px;
+  margin-bottom: 1rem;
+}
+.roomCard h4 {
+  font-size: 1.07rem;
+  margin-bottom: 0.7rem;
+  color: #ededed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.roomCard span {
+  font-size: 0.91rem;
+  margin-left: 0.45rem;
+}
+.roomCard b {
+  font-weight: 700;
+}
+.roomCard div {
+  margin-top: 0.45rem;
+}
