@@ -1,0 +1,56 @@
+[
+  {
+    "id": "purifier-01",
+    "category": "Air Purifier",
+    "title": "Coway AP-1512HH Mighty Air Purifier",
+    "description": "HEPA air purifier with true HEPA filter, suitable for rooms up to ~361 ft².",
+    "use_case": "Great for AQI > 80; helps reduce PM2.5 & allergens indoors.",
+    "image_url": "https://m.media-amazon.com/images/I/61SCshujZlL._AC_SY450_.jpg",
+    "buy_url": "https://a.co/d/7Sw9DYI"
+  },
+  {
+    "id": "purifier-02",
+    "category": "Air Purifier",
+    "title": "Levoit Core 300 Smart True HEPA Air Purifier",
+    "description": "Compact purifier with smart app control, ideal for bedrooms/offices up to 219 ft².",
+    "use_case": "Use when AQI > 100 or during smoke/particulate events.",
+    "image_url": "https://m.media-amazon.com/images/I/71t-9BTIg9L._AC_SY879_.jpg",
+    "buy_url": "https://a.co/d/dBWuwSP"
+  },
+  {
+    "id": "mask-01",
+    "category": "Mask",
+    "title": "3M Aura 9205+ N95 Respirator",
+    "description": "N95 respirator with comfortable design and exhalation valve, filters airborne particles.",
+    "use_case": "Recommended when AQI is “Unhealthy” (AQI >150) or during high particulate events.",
+    "image_url": "https://m.media-amazon.com/images/I/81Cy+RHp6CL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "buy_url": "https://a.co/d/hIQrGRj"
+  },
+  {
+    "id": "mask-02",
+    "category": "Mask",
+    "title": "Honeywell NIOSH N95 Disposable Respirator",
+    "description": "Lightweight N95 respirator for everyday protection.",
+    "use_case": "Good for moderate to unhealthy air quality (AQI 100–200).",
+    "image_url": "https://m.media-amazon.com/images/I/71BN6DqThdL._AC_SX450_PIbundle-20,TopRight,0,0_SH20_.jpg",
+    "buy_url": "https://a.co/d/fxWgrsY"
+  },
+  {
+    "id": "monitor-01",
+    "category": "Monitor",
+    "title": "PurpleAir PA-II Outdoor Air Quality Sensor",
+    "description": "Personal outdoor air quality monitor measuring PM2.5, provides local data.",
+    "use_case": "Useful for monitoring local pollutant levels when AQI data is coarse.",
+    "image_url": "https://www2.purpleair.com/cdn/shop/files/IMG_2535-2_1024x1024@2x.jpg?v=1731539126",
+    "buy_url": "https://www2.purpleair.com/products/purpleair-flex"
+  },
+  {
+    "id": "monitor-02",
+    "category": "Monitor",
+    "title": "Temtop M10 Air Quality Monitor",
+    "description": "Portable air quality monitor (PM2.5, TVOC, CO₂) for indoor use.",
+    "use_case": "Helpful if you want to track indoor air especially during poor outdoor air days.",
+    "image_url": "https://m.media-amazon.com/images/I/415wcagwhmL._SX342_.jpg",
+    "buy_url": "https://a.co/d/6zMhjyL"
+  }
+]
